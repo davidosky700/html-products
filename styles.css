@@ -1,0 +1,16 @@
+.small-card {
+	width: 80%;
+	height: 300px;
+	border-radius: 21px 21px 0 0;
+}
+
+.d-md-flex > div {
+  flex-grow: 1;  
+  flex-basis: 0;  
+}
+
+@media (max-width: 768px) {
+  .d-md-flex {
+    flex-direction: column;  /* Stack the divs on smaller screens */
+  }
+}
